@@ -54,5 +54,8 @@ a{
   width: 350px;
   color: black;
   padding-top: 10px;
-  margin: auto;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: 20px;
+  position: absolute;
 }
