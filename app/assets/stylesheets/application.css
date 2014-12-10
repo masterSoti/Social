@@ -21,7 +21,7 @@ nav{
   width: 100%;
   background-color: rgb(31, 105, 34);
   color: white;
-  postion: fixed;
+  position: fixed;
 }
 nav td{
   width:100px;
@@ -56,6 +56,6 @@ a{
   padding-top: 10px;
   left: 50%;
   margin-left: -175px;
-  margin-top: 20px;
+  margin-top: 50px;
   position: absolute;
 }
