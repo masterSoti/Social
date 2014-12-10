@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+body, html{
+  margin: 0 0;
+  background: url('green_cup.png') center center fixed;
+}
