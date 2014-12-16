@@ -2,6 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #home{
+  #first_container{
+    width: 1150px;
+    height: 400px;
+    background-color: rgb(87, 119, 103);
+    margin: auto;
+  }
+  #second_container{
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(75, 118, 75);
+  }
+}
+#contact{
   #container{
     height: 625px;
     #header{
@@ -45,10 +59,5 @@
         float: right;
       }
     }
-  }
-}
-#contact{
-  #container{
-    
   }
 }

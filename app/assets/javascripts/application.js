@@ -18,4 +18,7 @@ $(document).ready(function(){
   $('.alert-success').hover(function(){
     $(this).fadeOut(2000);
   });
+  setTimeout(function(){
+    $('.alert-success').fadeOut();
+  }, 5000);
 });
