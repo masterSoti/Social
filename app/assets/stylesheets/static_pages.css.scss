@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #home{
   #container{
+    height: 625px;
     #header{
       text-align: center;
       margin: auto;
@@ -18,12 +19,12 @@
       margin-left: -500px;
       z-index: 0;
       display: inline-block;
-      background-color: rgb(102, 169, 121);
+      background-color: #5E986E;
       border-radius: 20px;
       color: white;
       position: absolute;
       &:hover{
-        background-color: #59986B;
+        background-color: #589469;
       }
       #img{
         background-color: gray;
@@ -44,5 +45,10 @@
         float: right;
       }
     }
+  }
+}
+#contact{
+  #container{
+    
   }
 }
