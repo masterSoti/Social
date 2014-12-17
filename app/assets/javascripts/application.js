@@ -15,6 +15,9 @@
 //= require turbolinks
 //= require_tree .
 $(document).ready(function(){
+  //do{
+  //  location.reload();
+  //}while(false);
   $('.alert-success').hover(function(){
     $(this).fadeOut(2000);
   });
