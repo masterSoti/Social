@@ -5,25 +5,30 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+    flash[:notice] = "Sorry, but this website  is still under constuction"
   end
 
   # GET /users/1
   # GET /users/1.json
   def show
+    flash[:notice] = "Sorry, but this website  is still under constuction"
   end
 
   # GET /users/new
   def new
     @user = User.new
+    flash[:notice] = "Sorry, but this website  is still under constuction"
   end
 
   # GET /users/1/edit
   def edit
+    flash[:notice] = "Sorry, but this website  is still under constuction"
   end
 
   # POST /users
   # POST /users.json
   def create
+    flash[:notice] = "Sorry, but this website  is still under constuction"
     @user = User.new(user_params)
 
     respond_to do |format|
@@ -40,6 +45,7 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
+    flash[:notice] = "Sorry, but this website  is still under constuction"
     respond_to do |format|
       if @user.update(user_params)
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
